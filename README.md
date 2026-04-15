@@ -10,19 +10,19 @@ It is containerized using Docker and deployed on an AWS EC2 instance.
 🐳 **Docker Commands**
 
 ```bash
-docker build -t sanmayamb/webapp .
+docker build -t lakshitraina/webapp .
 
 docker login
 
-docker push sanmayamb/webapp
+docker push lakshitraina/webapp
 ```
 
 ☁️ **AWS EC2 Deployment**
 
 ```bash
-docker pull sanmayamb/webapp
+docker pull lakshitraina/webapp
 
-docker run -d -p 80:80 sanmayamb/webapp
+docker run -d -p 80:80 lakshitraina/webapp
 ```
 
 🌐 **Live URL**
@@ -32,16 +32,16 @@ docker run -d -p 80:80 sanmayamb/webapp
 📸 **Screenshots**
 
 ### ✅ Docker build success
-![Docker Build Success](assets/docker_build.png)
+![Docker Build Success](docker_build.png)
 
 ### ✅ Docker push success
-![Docker Push Success](assets/pushed.png)
+![Docker Push Success](pushed.png)
 
 ### ✅ EC2 terminal running container
-![EC2 Running](assets/ec2_terminal.png)
+![EC2 Running](ec2_terminal.png)
 
 ### ✅ Website opened in browser
-![Website Screenshot](assets/deployed.png)
+![Website Screenshot](deployed.png)
 
 ---
-*Deployed with ❤️ by Sanmaya*
+*Deployed with ❤️ by Lakshit*
